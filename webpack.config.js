@@ -18,8 +18,8 @@ module.exports = (env) => {
 
   return {
     entry: {
-      app: `./${DIR_SRC}/index.js`
-      // app: `./${DIR_PLAYGROUND}/redux-101.js`
+      // app: `./${DIR_SRC}/index.js`
+      app: `./${DIR_PLAYGROUND}/counter/index.js`
     },
     output: {
       path: resolve(DIR_DIST),
